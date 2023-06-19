@@ -1,0 +1,77 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 325px;
+  height: 200px;
+  object-fit: cover;
+}
+.firstStepsTo,
+.gettingStarted {
+  position: absolute;
+  left: 4.92%;
+  display: inline-block;
+}
+.gettingStarted {
+  width: 90.15%;
+  top: calc(50% + 26px);
+  font-size: var(--font-size-lg);
+  line-height: 29px;
+  font-weight: 600;
+}
+.firstStepsTo {
+  width: 91.08%;
+  top: calc(50% + 96px);
+  line-height: 22px;
+  color: var(--color-silver);
+}
+.hoursAgo,
+.lifestyle {
+  position: absolute;
+  top: 220px;
+}
+.lifestyle {
+  left: 16px;
+  letter-spacing: 8px;
+  color: var(--color-goldenrod);
+}
+.hoursAgo {
+  left: 226px;
+  font-weight: 300;
+  opacity: 0.6;
+}
+.readMore {
+  position: relative;
+  font-weight: 500;
+}
+.vuesaxlineararrowRightIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.readMoreParent {
+  position: absolute;
+  top: 413px;
+  left: 16px;
+  width: 112px;
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  color: var(--color-goldenrod);
+}
+.vectorParent {
+  position: absolute;
+  top: 448px;
+  left: 40px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  width: 325px;
+  height: 454px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
